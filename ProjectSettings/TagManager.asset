@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - People
+  - Skills
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: People
+    uniqueID: 1690453943
+    locked: 0
+  - name: Skills
+    uniqueID: 185172767
     locked: 0

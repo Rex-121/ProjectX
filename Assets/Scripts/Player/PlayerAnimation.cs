@@ -10,6 +10,8 @@ public class PlayerAnimation : MonoBehaviour
 
     HitStop hitStop;
 
+
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -37,6 +39,10 @@ public class PlayerAnimation : MonoBehaviour
         hitStop.TimeStop();
     }
 
+    public void Attack()
+    {
+        animator.SetTrigger("Attack");
+    }
 
     public void finishBlock() {
 

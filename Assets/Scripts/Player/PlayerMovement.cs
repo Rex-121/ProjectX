@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private PlayerAnimation play_animation;
+    private PlayerReaction reaction;
 
     public float movementSpeed = 3;
 
@@ -14,28 +14,34 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        play_animation = GetComponent<PlayerAnimation>();
+        reaction = GetComponent<PlayerReaction>();
         rb = GetComponent<Rigidbody2D>();
         render = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
+    private void Update()
     {
         if (Input.GetKeyDown("e"))
         {
-            play_animation.BlockAttack();
+            reaction.BlockAttack();
         }
 
         var move = InputControl.Horizontal();
 
-        if (move != 0) { render.flipX = move <= 0; }
+        if (move != 0) { transform.localScale = new Vector3(move <= 0 ? -1 : 1, transform.localScale.y, transform.localScale.z); }
 
         var speed = move * movementSpeed;
 
-        play_animation.RunBySpeed(speed);
+        reaction.RunBySpeed(speed);
 
         rb.velocity = new Vector2(speed, rb.velocity.y);
+
+
+        if (Input.GetKeyDown("q"))
+        {
+            reaction.Attack();
+        }
 
     }
 }

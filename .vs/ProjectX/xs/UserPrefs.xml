@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{6F0999DB-C651-AC8A-F1C1-A7792A8F0F09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tools/HitStop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerReaction.cs">
     <Files>
       <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Player/PlayerAnimation.cs" Line="23" Column="53" />
+      <File FileName="Assets/Scripts/Player/PlayerAnimation.cs" />
       <File FileName="Assets/Scripts/Player/PlayerReaction.cs" Line="19" Column="31" />
-      <File FileName="Assets/Scripts/Tools/InputControl.cs" Line="5" Column="26" />
-      <File FileName="Assets/Scripts/Tools/HitStop.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Tools/InputControl.cs" />
+      <File FileName="Assets/Scripts/Tools/HitStop.cs" Line="34" Column="63" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
