@@ -56,17 +56,19 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Tools/InputControl.cs" />
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" />
+    <Compile Include="Assets/Scripts/Tools/HitStop.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerAnimation.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerReaction.cs" />
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerAnimation.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerReaction.cs" />
-    <Compile Include="Assets/Scripts/Tools/InputControl.cs" />
-    <Compile Include="Assets/Scripts/Tools/HitStop.cs" />
+    <Compile Include="Assets/Scripts/Tools/NormalTile.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/Resources/IsoTacticsTileset_by_SecretHideout_V1.1/ReadMe.txt" />
      <None Include="Assets/Resources/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -8,7 +8,7 @@ public class InputControl
     // 获得横向
     public static float Horizontal()
     {
-        return Input.GetAxis("Horizontal");
+        return Input.GetAxisRaw("Horizontal");
     }
 
 
