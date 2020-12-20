@@ -66,6 +66,7 @@
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets/Resources/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets/Scripts/Tools/NormalTile.cs" />
+    <Compile Include="Assets/Scripts/Tools/TileDebugger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Resources/IsoTacticsTileset_by_SecretHideout_V1.1/ReadMe.txt" />
